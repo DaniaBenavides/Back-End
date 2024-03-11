@@ -1,0 +1,57 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilo para los encabezados */
+h1 {
+    color: #333;
+    background-color: aqua;
+    text-align: center;
+}
+
+/* Estilo para las imágenes */
+img {
+    margin: 5px;
+    margin-left: 310px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Estilo para la tabla */
+table {
+    display: block;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center; /* Centrando el texto dentro de las celdas */
+}
+
+/* Estilo para la primera fila de la tabla */
+tr:first-child td {
+    font-weight: bold; /* Haciendo el texto de la primera fila en negrita */
+    background-color: #f0f0f0; /* Cambiando el color de fondo de la primera fila */
+}
+
+/* Estilo para el contenedor principal */
+.content {
+    display: flex;
+}
+
+/* Estilo para el contenedor de las imágenes */
+.images {
+    margin-right: 50px; /* Espacio entre las imágenes y la tabla */
+}
+
+/* Estilo para la tabla */
+.table-container {
+    width: 50%; /* Ancho de la tabla */
+}
